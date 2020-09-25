@@ -21,9 +21,8 @@ class App extends Component {
         ></StoreHead>
         <Phones className="phones"
           onClick={this.onAddCart}
-        // countOfPhones={this.state.counts}
         ></Phones>
-      </main >
+      </main>
     );
   }
 }
